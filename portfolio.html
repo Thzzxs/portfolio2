@@ -1,0 +1,131 @@
+<!-- portfolio.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio - Thiago Marinho</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#hero">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seção Hero -->
+    <section id="hero">
+        <div>
+            <h1>Thiago Marinho de Sousa</h1>
+            <p>Desenvolvedor Full Stack e Apaixonado por Tecnologia</p>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre">
+        <h2 class="reveal">Sobre Mim</h2>
+        <div class="reveal">
+            <img src="img/eu.jpg" alt="Foto de Thiago" />
+        </div>
+        <div class="texto reveal">
+            <p>Olá! Eu sou Thiago Marinho, estudante de Sistemas de Informação no Senac Jurubatuba e desenvolvedor apaixonado por criar soluções eficientes e elegantes. Tenho experiência em Java, Spring Boot, Thymeleaf, HTML, CSS e JavaScript. Atualmente, estou desenvolvendo um sistema de gerenciamento de currículos que visa facilitar a busca e organização de candidatos para empresas de tecnologia.</p>
+            <p>Gosto de desafios e estou sempre em busca de aprender novas tecnologias e práticas para aprimorar meus projetos. Meu objetivo é contribuir para a transformação digital de organizações, entregando aplicações com foco em performance, usabilidade e segurança.</p>
+        </div>
+    </section>
+
+    <!-- Seção Habilidades -->
+    <section id="habilidades">
+        <h2 class="reveal">Habilidades</h2>
+        <div class="habilidades-container">
+            <div class="habilidade reveal" style="--percentagem: 90%;">
+                <h3>Java & Spring Boot</h3>
+                <div class="barra">
+                    <div class="progresso"></div>
+                </div>
+            </div>
+            <div class="habilidade reveal" style="--percentagem: 85%;">
+                <h3>JavaScript & React</h3>
+                <div class="barra">
+                    <div class="progresso"></div>
+                </div>
+            </div>
+            <div class="habilidade reveal" style="--percentagem: 80%;">
+                <h3>HTML & CSS</h3>
+                <div class="barra">
+                    <div class="progresso"></div>
+                </div>
+            </div>
+            <div class="habilidade reveal" style="--percentagem: 70%;">
+                <h3>Banco de Dados (PostgreSQL)</h3>
+                <div class="barra">
+                    <div class="progresso"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos">
+        <h2 class="reveal">Projetos</h2>
+        <div class="projetos-grid">
+            <!-- Projeto 1 -->
+            <div class="projeto reveal">
+                <img src="img/WiseCorp.jpg" alt="Projeto Sistema de Currículos" />
+                <div class="projeto-info">
+                    <h3>Sistema de Gerenciamento de Currículos</h3>
+                    <p>Desenvolvido em Java e Spring Boot, com front-end em Thymeleaf, este sistema permite cadastrar candidatos, visualizar vagas e gerenciar currículos eficientemente. Implementa busca de endereço via API de CEP.</p>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="projeto reveal">
+                <img src="https://via.placeholder.com/600x400" alt="Projeto Micro Mouse" />
+                <div class="projeto-info">
+                    <h3>Simulador Micro Mouse</h3>
+                    <p>Simulação de robô explorador de labirinto em Java, utilizando DFS e estruturas de dados para memorização de caminhos. Inclui relatório técnico formatado em ABNT.</p>
+                </div>
+            </div>
+            <!-- Projeto 3 -->
+            <div class="projeto reveal">
+                <img src="img/SistemaBancario.jpeg" alt="Projeto de um Sistema Bancario" />
+                <div class="projeto-info">
+                    <h3>Página de Vagas de Tecnologia</h3>
+                    <p>desenvolvi um Sistema Bancário Simples utilizando Python! Este projeto foi uma ótima oportunidade para aprofundar meus conhecimentos em Programação Orientada a Objetos (POO) e aprender a estruturar um sistema interativo</p>
+                </div>
+            </div>
+            <!-- Projeto 4 -->
+            <div class="projeto reveal">
+                <img src="img/calc.jpeg" alt="Projeto Calculadora IMC em Java" />
+                <div class="projeto-info">
+                    <h3>Calculadora IMC</h3>
+                    <p>Criei uma calculadora de IMC (Índice de Massa Corporal) em Java! Esse projeto foi uma excelente oportunidade para aplicar minhas habilidades em programação e também para entender como construir sistemas simples, mas funcionais, usando lógica e interatividade com o usuário.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <h2 class="reveal">Contato</h2>
+        <form class="reveal" action="#" method="post">
+            <input type="text" name="nome" placeholder="Seu Nome" required />
+            <input type="email" name="email" placeholder="Seu Email" required />
+            <textarea name="mensagem" rows="5" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Thiago Marinho de Sousa. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- JavaScript para Animações ao Rolagem -->
+    <script src="scripit.js"></script>
+</body>
+</html>
